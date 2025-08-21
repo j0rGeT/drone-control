@@ -1,0 +1,20 @@
+{
+  "name": "drone-swarm-control",
+  "version": "1.0.0",
+  "description": "Drone swarm control system with formation flight and simulator support",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "dev": "node --watch src/main.js",
+    "test": "node test/test.js",
+    "simulator": "node src/simulator.js",
+    "demo:circle": "node src/main.js demo-circle",
+    "demo:heart": "node src/main.js demo-heart"
+  },
+  "keywords": ["drone", "swarm", "control", "formation", "flight"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.14.2"
+  }
+}
